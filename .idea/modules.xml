@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03-链表/03-链表.iml" filepath="$PROJECT_DIR$/03-链表/03-链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-二叉搜索树/06-二叉搜索树.iml" filepath="$PROJECT_DIR$/06-二叉搜索树/06-二叉搜索树.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" filepath="$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-AVL/08-AVL.iml" filepath="$PROJECT_DIR$/08-AVL/08-AVL.iml" />
       <module fileurl="file://$PROJECT_DIR$/算法.iml" filepath="$PROJECT_DIR$/算法.iml" />
     </modules>
   </component>
