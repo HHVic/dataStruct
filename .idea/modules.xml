@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" filepath="$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-AVL/08-AVL.iml" filepath="$PROJECT_DIR$/08-AVL/08-AVL.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-红黑树/09-红黑树.iml" filepath="$PROJECT_DIR$/09-红黑树/09-红黑树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" filepath="$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" filepath="$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" />
       <module fileurl="file://$PROJECT_DIR$/算法.iml" filepath="$PROJECT_DIR$/算法.iml" />
     </modules>
   </component>

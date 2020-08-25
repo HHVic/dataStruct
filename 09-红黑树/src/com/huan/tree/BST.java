@@ -20,6 +20,7 @@ public class BST<E> extends BinaryTree<E> {
      * @param element
      */
     public void add(E element) {
+        elementNotNullCheck(element);
         // 添加根节点
         if (root == null) {
             root = createNode(element,null);
