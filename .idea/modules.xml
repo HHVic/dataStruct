@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" filepath="$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" />
       <module fileurl="file://$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" filepath="$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" />
       <module fileurl="file://$PROJECT_DIR$/12-哈希表/12-哈希表.iml" filepath="$PROJECT_DIR$/12-哈希表/12-哈希表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-堆/13-堆.iml" filepath="$PROJECT_DIR$/13-堆/13-堆.iml" />
       <module fileurl="file://$PROJECT_DIR$/算法.iml" filepath="$PROJECT_DIR$/算法.iml" />
     </modules>
   </component>
