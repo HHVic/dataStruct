@@ -1,26 +1,83 @@
 package com.huan;
 
+import com.huan.file.FileInfo;
+import com.huan.file.Files;
 import com.huan.map.HashMap;
+import com.huan.map.LinkedHashMap;
 import com.huan.map.Map;
 import com.huan.model.Key;
-import com.huan.model.Person;
 import com.huan.model.SubKey1;
 import com.huan.model.SubKey2;
 
-import java.nio.file.Files;
-import java.util.LinkedHashMap;
-
 public class Main {
     public static void main(String[] args) {
-        test2(new HashMap<>());
-        test3(new HashMap<>());
-        test4(new HashMap<>());
-        test5(new HashMap<>());
+        test1();
+        test2(new LinkedHashMap<>());
+        test3(new LinkedHashMap<>());
+        test4(new LinkedHashMap<>());
+        test5(new LinkedHashMap<>());
 
 //        Map<Object,Integer> map = new HashMap<>();
 //        map.put(new Person(10,1.3f,"33"),1);
 //        map.put(new Person(10,1.5f,"33"),100);
 //        System.out.println(map.size());
+    }
+
+    static void test1Map(java.util.Map<String, Integer> map, String[] words) {
+        Times.test(map.getClass().getName(), () -> {
+            for (String word : words) {
+                Integer count = map.get(word);
+                count = count == null ? 0 : count;
+                map.put(word, count + 1);
+            }
+            System.out.println(map.size()); // 17188
+
+            int count = 0;
+            for (String word : words) {
+                Integer i = map.get(word);
+                count += i == null ? 0 : i;
+                map.remove(word);
+            }
+            Asserts.test(count == words.length);
+            Asserts.test(map.size() == 0);
+        });
+    }
+
+    static void test1Map(Map<String, Integer> map, String[] words) {
+        Times.test(map.getClass().getName(), () -> {
+            for (String word : words) {
+                Integer count = map.get(word);
+                count = count == null ? 0 : count;
+                map.put(word, count + 1);
+            }
+            System.out.println(map.size()); // 17188
+            //((HashMap)map).print();
+
+            int count = 0;
+            for (String word : words) {
+                Integer i = map.get(word);
+                count += i == null ? 0 : i;
+                map.remove(word);
+            }
+            Asserts.test(count == words.length);
+            Asserts.test(map.size() == 0);
+        });
+    }
+
+    static void test1() {
+        String filepath = "C:\\Program Files\\Java\\jdk1.8.0_74\\src";
+        FileInfo fileInfo = Files.read(filepath, null);
+        String[] words = fileInfo.words();
+
+        System.out.println("总行数：" + fileInfo.getLines());
+        System.out.println("单词总数：" + words.length);
+        System.out.println("-------------------------------------");
+
+        //test1Map(new TreeMap<>(), words);
+        //test1Map(new java.util.HashMap<>(),words);
+        test1Map(new HashMap<>(), words);
+
+        test1Map(new LinkedHashMap<>(), words);
     }
 
     static void test2(HashMap<Object, Integer> map) {
@@ -85,6 +142,15 @@ public class Main {
         Asserts.test(map.get(new Key(6)) == null);
         Asserts.test(map.get(new Key(7)) == null);
         Asserts.test(map.get(new Key(8)) == 8);
+
+//        map.print();
+//        map.traversal(new Map.Visitor<Object, Integer>() {
+//            @Override
+//            public boolean visit(Object key, Integer value) {
+//                System.out.println(key + "_" + value);
+//                return false;
+//            }
+//        });
     }
 
     static void test5(HashMap<Object, Integer> map) {
@@ -95,6 +161,7 @@ public class Main {
         Asserts.test(map.get(new SubKey1(1)) == 5);
         Asserts.test(map.get(new SubKey2(1)) == 5);
         Asserts.test(map.size() == 20);
+     //   map.print();
     }
 
 }
