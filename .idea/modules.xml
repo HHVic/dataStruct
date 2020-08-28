@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" filepath="$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" />
       <module fileurl="file://$PROJECT_DIR$/12-哈希表/12-哈希表.iml" filepath="$PROJECT_DIR$/12-哈希表/12-哈希表.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-堆/13-堆.iml" filepath="$PROJECT_DIR$/13-堆/13-堆.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-优先级队列/14-优先级队列.iml" filepath="$PROJECT_DIR$/14-优先级队列/14-优先级队列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-字典树/15-字典树.iml" filepath="$PROJECT_DIR$/15-字典树/15-字典树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-排序/16-排序.iml" filepath="$PROJECT_DIR$/16-排序/16-排序.iml" />
       <module fileurl="file://$PROJECT_DIR$/算法.iml" filepath="$PROJECT_DIR$/算法.iml" />
     </modules>
   </component>
