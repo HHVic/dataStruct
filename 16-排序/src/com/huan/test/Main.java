@@ -14,15 +14,16 @@ public class Main {
     public static void main(String[] args) {
         Integer[] array = Integers.random(10000, 1, 100000);
         testSorts(array,
+                new HeapSort(),
+                new HeapSort2(),
                 new BubbleSort1(),
                 new BubbleSort2(),
                 new BubbleSort3(),
                 new SelectionSort(),
                 new InsertionSort1(),
                 new InsertionSort3(),
-                new InsertionSort2(),
-                new HeapSort(),
-                new HeapSort2()
+                new MergeSort(),
+                new InsertionSort2()
         );
 
 //        Person[] persons = new Person[]{
