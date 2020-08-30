@@ -12,18 +12,20 @@ import java.util.Comparator;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] array = Integers.random(10000, 1, 100000);
+        Integer[] array = Integers.random(50000, 1, 100000);
         testSorts(array,
                 new HeapSort(),
                 new HeapSort2(),
-                new BubbleSort1(),
-                new BubbleSort2(),
-                new BubbleSort3(),
-                new SelectionSort(),
-                new InsertionSort1(),
+//                new BubbleSort1(),
+//                new BubbleSort2(),
+//                new BubbleSort3(),
+//                new SelectionSort(),
+//                new InsertionSort1(),
                 new InsertionSort3(),
-                new MergeSort(),
-                new InsertionSort2()
+                new ShellSort(),
+                new QuickSort(),
+//                new InsertionSort2(),
+                new MergeSort()
         );
 
 //        Person[] persons = new Person[]{
