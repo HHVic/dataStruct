@@ -1,0 +1,16 @@
+package com.huan.union;
+
+public class UnionFind_QU_R_PS extends UnionFind_QU_R {
+    public UnionFind_QU_R_PS(int capacity) {
+        super(capacity);
+    }
+
+    @Override
+    public int find(int value) {
+        while(value != parents[value]){
+            parents[value] = parents[parents[value]];
+            value = parents[value];
+        }
+        return parents[value];
+    }
+}
