@@ -12,7 +12,10 @@ import java.util.Comparator;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] array = Integers.random(50000, 1, 100000);
+
+//        int[] nums = new int[]{5,6,10,50,42,40};
+//        sleepSort(nums);
+        Integer[] array = Integers.random(1000000, 1, 1000000);
         testSorts(array,
                 new HeapSort(),
                 new HeapSort2(),
@@ -21,7 +24,9 @@ public class Main {
 //                new BubbleSort3(),
 //                new SelectionSort(),
 //                new InsertionSort1(),
-                new InsertionSort3(),
+                new CountingSort1(),
+                new RadixSort(),
+//                new InsertionSort3(),
                 new ShellSort(),
                 new QuickSort(),
 //                new InsertionSort2(),
@@ -66,16 +71,18 @@ public class Main {
     }
 
 
-    public static void sleepSort(int num){
-        new Thread(() -> {
-            try {
-                Thread.sleep(num);
-                System.out.print(num + ",");
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }).start();
-
+    public static void sleepSort(int[] array){
+        for(int i = 0;i < array.length;++i){
+            final int num = array[i];
+            new Thread(() -> {
+                try {
+                    Thread.sleep(num);
+                    System.out.print(num + ",");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+        }
     }
 
 }

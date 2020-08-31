@@ -1,7 +1,6 @@
 package com.huan;
 
-import com.huan.sort.SelectionSort;
-import com.huan.sort.ShellSort;
+import com.huan.sort.*;
 import com.huan.tools.Asserts;
 import com.huan.tools.Integers;
 
@@ -87,6 +86,9 @@ public abstract class Sort<T> implements Comparable<Sort<T>>{
 
 	private boolean isStable() {
 		if(this instanceof ShellSort) return false;
+		if(this instanceof CountingSort) return true;
+		if(this instanceof CountingSort1) return true;
+		if(this instanceof RadixSort) return true;
 		Student[] students = new Student[20];
 		for (int i = 0; i < students.length; i++) {
 			students[i] = new Student(i * 10, 10);
