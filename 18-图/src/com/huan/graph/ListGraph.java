@@ -25,10 +25,84 @@ public class ListGraph<V, E> implements Graph<V, E> {
             System.out.println(vertex.outEdges);
         });
         // 遍历所有边打印
-        edges.forEach(edge -> {
-            System.out.println(edge);
+        edges.forEach(System.out::println);
+    }
+
+    @Override
+    public void bfs(V start, Visitor<V> visitor) {
+        Vertex<V, E> vertex = vertices.get(start);
+        if(vertex == null || visitor == null) return ;
+        HashSet<Vertex<V, E>> visited = new HashSet<>();
+        Queue<Vertex<V,E>> queue = new LinkedList<>();
+        queue.offer(vertex);
+        visited.add(vertex);
+        while(!queue.isEmpty()){
+            vertex = queue.poll();
+            if(visitor.visitor(vertex.v)) return ;
+            vertex.outEdges.forEach(edge -> {
+                if(!visited.contains(edge.to)){
+                    queue.offer(edge.to);
+                    visited.add(edge.to);
+                }
+            });
+//            for(Edge<V,E> edge : vertex.outEdges){
+//                if(!visited.contains(edge.to)){
+//                    queue.offer(edge.to);
+//                    visited.add(edge.to);
+//                }
+//            }
+        }
+    }
+
+    @Override
+    public void dfs(V start, Visitor<V> visitor) {
+        Vertex<V, E> vertex = vertices.get(start);
+        if(visitor == null || vertex == null) return ;
+        dfs1(visitor,vertex,new HashSet<>());
+    }
+
+    /**
+     * 递归实现
+     * @param visitor
+     * @param vertex
+     * @param visited
+     */
+    public void dfs(Visitor visitor,Vertex<V,E> vertex,HashSet<Vertex<V,E>> visited){
+        if(visitor.stop) return ;
+        visitor.stop = visitor.visitor(vertex.v);
+        visited.add(vertex);
+        if(visitor.stop) return;
+        vertex.outEdges.forEach(edge -> {
+            if(!visited.contains(edge.to)){
+                dfs(visitor,edge.to,visited);
+                visited.add(edge.to);
+            }
         });
     }
+
+    /**
+     * 非递归实现
+     * @param visitor
+     * @param vertex
+     * @param visited
+     */
+    public void dfs1(Visitor visitor,Vertex<V,E> vertex,HashSet<Vertex<V,E>> visited){
+        Stack<Vertex<V,E>> stack = new Stack<>();
+        stack.push(vertex);
+        visited.add(vertex);
+        while(!stack.isEmpty()){
+            vertex = stack.pop();
+            if(visitor.visitor(vertex.v)) return ;
+            vertex.outEdges.forEach(edge -> {
+                if(!visited.contains(edge.to)){
+                    stack.push(edge.to);
+                    visited.add(edge.to);
+                }
+            });
+        }
+    }
+
+
 
     @Override
     public int vertexSize() {

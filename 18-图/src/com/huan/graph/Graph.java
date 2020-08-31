@@ -1,5 +1,7 @@
 package com.huan.graph;
 
+
+
 public interface Graph<V, E> {
 
     /**
@@ -51,5 +53,24 @@ public interface Graph<V, E> {
      * 打印图
      */
     void print();
+
+    /**
+     * 广度优先遍历
+     * @param start
+     * @param visitor
+     */
+    void bfs(V start,Visitor<V> visitor);
+
+    /**
+     * 深度优先遍历
+     * @param start
+     * @param visitor
+     */
+    void dfs(V start,Visitor<V> visitor);
+
+    abstract class Visitor<V>{
+        boolean stop;
+        public abstract boolean visitor(V v);
+    }
 
 }
