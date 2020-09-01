@@ -8,11 +8,21 @@ import java.util.*;
  * @param <V>
  * @param <E>
  */
-public class ListGraph<V, E> implements Graph<V, E> {
+public class ListGraph<V, E> extends Graph<V, E> {
     // 存放所有的顶点的映射
-    Map<V, Vertex<V, E>> vertices = new HashMap<>();
+    private Map<V, Vertex<V, E>> vertices = new HashMap<>();
     // 存放所有的边
-    Set<Edge<V, E>> edges = new HashSet<>();
+    private Set<Edge<V, E>> edges = new HashSet<>();
+    // 权值比较器
+    private Comparator<Edge<V,E>> weightComparator = ((o1, o2) -> weightManager.compare(o1.weight,o2.weight));
+
+    public ListGraph(WeightManager<E> weightManager) {
+        super(weightManager);
+    }
+
+    public ListGraph() {
+        this(null);
+    }
 
     @Override
     public void print() {
@@ -91,6 +101,61 @@ public class ListGraph<V, E> implements Graph<V, E> {
                     ins.put(edge.to, inEdgeSize);
                 }
             });
+        }
+
+        return result;
+    }
+
+    @Override
+    public Set<EdgeInfo<V, E>> primMST() {
+        Iterator<Vertex<V, E>> iterator = vertices.values().iterator();
+        if(!iterator.hasNext()) return null;
+        Vertex<V, E> vertex = iterator.next();
+        if(vertex == null) return null;
+        Set<EdgeInfo<V,E>> result = new HashSet<>();
+        Set<Vertex<V,E>> vertexSet = new HashSet<>();
+        //存放所有的备选边(存放权值最小的边)
+        com.huan.graph.PriorityQueue<Edge<V,E>> queue = new PriorityQueue<>(vertex.outEdges,weightComparator);
+        vertexSet.add(vertex);
+        //将vertex所有的边入队
+//        vertex.outEdges.forEach(edge -> {
+//            queue.offer(edge);
+//        });
+        while(!queue.isEmpty() && vertexSet.size() < vertexSize()){
+            //出队
+            Edge<V, E> edge = queue.poll();
+            assert edge != null;
+            if(vertexSet.contains(edge.to)) continue;;
+            result.add(edge.info());
+            vertexSet.add(edge.to);
+            //edge to 对应的顶点的out入队
+            edge.to.outEdges.forEach(e -> {
+                if(!vertexSet.contains(e.to)){
+                    queue.offer(e);
+                }
+            });
+        }
+        return result;
+    }
+
+    @Override
+    public Set<EdgeInfo<V, E>> kruskalMST() {
+        int vertexSize = vertices.size();
+        if(vertexSize == 0) return null;
+        //建立一个并查集存放所有的顶点
+        UnionFind<Vertex<V,E>> uf = new UnionFind<>(vertices.values());
+        Set<EdgeInfo<V,E>> result = new HashSet<>();
+        //所有边入堆
+        com.huan.graph.PriorityQueue<Edge<V,E>> queue = new PriorityQueue<>(edges,weightComparator);
+        int edgeSize = edges.size() - 1;
+        while(!queue.isEmpty() && result.size() < edgeSize){
+            //选权值最小的边
+            Edge<V, E> edge = queue.poll();
+            //如果edge.from edge.to 在一个集合就继续下一次循环
+            if(uf.isSame(edge.from,edge.to)) continue;
+            //连接edge.from edge.to
+            uf.union(edge.from,edge.to);
+            result.add(edge.info());
         }
 
         return result;
@@ -286,6 +351,10 @@ public class ListGraph<V, E> implements Graph<V, E> {
             this.from = from;
             this.to = to;
             this.weight = weight;
+        }
+
+        private EdgeInfo<V,E> info(){
+            return new EdgeInfo<>(from.v, to.v, weight);
         }
 
         // 顶点相同默认相同

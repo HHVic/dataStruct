@@ -4,33 +4,41 @@ package com.huan.graph;
 import sun.reflect.generics.visitor.Visitor;
 
 import java.util.List;
+import java.util.Set;
 
-@SuppressWarnings("ALL")
-public interface Graph<V, E> {
+public abstract class Graph<V, E> {
+    protected WeightManager<E> weightManager;
+
+    public Graph(WeightManager<E> weightManager) {
+        this.weightManager = weightManager;
+    }
+
+    public Graph() {
+    }
 
     /**
      * 顶点数
      * @return
      */
-    int vertexSize();
+    public abstract int vertexSize();
 
     /**
      * 边数
      * @return
      */
-    int EdgeSize();
+    public abstract int EdgeSize();
     /**
      * 添加顶点
      * @param v
      */
-    void addVertex(V v);
+    public abstract void addVertex(V v);
 
     /**
      * 添加边
      * @param from 从哪个点出来
      * @param to 到哪个点
      */
-    void addEdge(V from, V to);
+    public abstract void addEdge(V from, V to);
 
     /**
      * 带权重的边
@@ -38,61 +46,120 @@ public interface Graph<V, E> {
      * @param to
      * @param weight
      */
-    void addEdge(V from, V to, E weight);
+    public abstract void addEdge(V from, V to, E weight);
 
     /**
      * 删除顶点
      * @param v
      */
-    void removeVertex(V v);
+    public abstract void removeVertex(V v);
 
     /**
      * 删除边
      * @param from
      * @param to
      */
-    void removeEdge(V from,V to);
+    public abstract void removeEdge(V from,V to);
 
     /**
      * 打印图
      */
-    void print();
+    public abstract void print();
 
     /**
      * 广度优先遍历
      * @param start
      * @param visitor
      */
-    void bfs(V start, Visitor<V> visitor);
+    public abstract void bfs(V start, Visitor<V> visitor);
 
     /**
      * 深度优先遍历
      * @param start
      * @param visitor
      */
-    void dfs(V start,Visitor<V> visitor);
+    public abstract void dfs(V start, Visitor<V> visitor);
 
     /**
      * 有向无环图拓扑排序
      * @return
      */
-    List<V> topologicalSort();
+    public abstract List<V> topologicalSort();
 
-    abstract class Visitor<V>{
+    public Set<EdgeInfo<V,E>> MST(){
+        return kruskalMST();
+    }
+
+    /**
+     * Prim算法求最小生成树
+     * @param <V>
+     */
+    public abstract Set<EdgeInfo<V,E>> primMST();
+
+    /**
+     * Kruskal算法求最小生成树
+     * @return
+     */
+    public abstract Set<EdgeInfo<V,E>> kruskalMST();
+
+    public static abstract class Visitor<V>{
         boolean stop;
         public abstract boolean visitor(V v);
     }
 
-    class EdgeInfo<V,E>{
-        V from;
-        V to;
-        E weight;
+    /**
+     * 存放边的信息
+     * @param <V>
+     * @param <E>
+     */
+    public static class EdgeInfo<V,E>{
+        private V from;
+        private V to;
+        private E weight;
 
-        public EdgeInfo(V from, V to, E weight) {
+        protected EdgeInfo(V from, V to, E weight) {
             this.from = from;
             this.to = to;
             this.weight = weight;
         }
+
+        @Override
+        public String toString() {
+            return "EdgeInfo{" +
+                    "from=" + from +
+                    ", to=" + to +
+                    ", weight=" + weight +
+                    '}';
+        }
+
+        public V getFrom() {
+            return from;
+        }
+
+        public void setFrom(V from) {
+            this.from = from;
+        }
+
+        public V getTo() {
+            return to;
+        }
+
+        public void setTo(V to) {
+            this.to = to;
+        }
+
+        public E getWeight() {
+            return weight;
+        }
+
+        public void setWeight(E weight) {
+            this.weight = weight;
+        }
+    }
+
+    public interface WeightManager<E>{
+        int compare(E e1,E e2);
+        E add(E e1,E e2);
     }
 
 }

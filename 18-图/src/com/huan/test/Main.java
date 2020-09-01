@@ -1,16 +1,70 @@
 package com.huan.test;
 
 import com.huan.graph.Graph;
+import com.huan.graph.Graph.WeightManager;
 import com.huan.graph.ListGraph;
+import com.huan.graph.UnionFind;
+import com.huan.tools.Asserts;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
+    static WeightManager<Double> weightManager = new WeightManager<Double>() {
+        @Override
+        public int compare(Double e1, Double e2) {
+            return e1.compareTo(e2);
+        }
+
+        @Override
+        public Double add(Double e1, Double e2) {
+            return e1 + e2;
+        }
+    };
 
     public static void main(String[] args) {
 //        testBFS();
 //        testDFS();
-        testTopo();
+//        testTopo();
+        testMST();
+//        testUnionFind();
+    }
+
+    private static void testUnionFind(){
+        List<Integer> list = new ArrayList<>();
+        for(int i = 0;i < 12;++i){
+            list.add(i);
+        }
+        UnionFind<Integer> uf = new UnionFind<>(list);
+
+        uf.union(0, 1);
+        uf.union(0, 3);
+        uf.union(0, 4);
+        uf.union(2, 3);
+        uf.union(2, 5);
+
+        uf.union(6, 7);
+
+        uf.union(8, 10);
+        uf.union(9, 10);
+        uf.union(9, 11);
+        uf.print();
+
+        Asserts.test(!uf.isSame(2, 7));
+
+        uf.union(4, 6);
+
+        Asserts.test(uf.isSame(2, 7));
+    }
+
+    private static void testMST(){
+        Graph<Object, Double> graph = undirectedGraph(Data.MST_01);
+        Set<Graph.EdgeInfo<Object, Double>> edgeInfos1 = graph.kruskalMST();
+        Set<Graph.EdgeInfo<Object, Double>> edgeInfos2 = graph.primMST();
+        edgeInfos1.forEach(System.out::println);
+        System.out.println("====================");
+        edgeInfos2.forEach(System.out::println);
     }
 
     private static void testBFS(){
@@ -62,7 +116,7 @@ public class Main {
      * 有向图
      */
     private static Graph<Object, Double> directedGraph(Object[][] data) {
-        Graph<Object, Double> graph = new ListGraph<>();
+        Graph<Object, Double> graph = new ListGraph<>(weightManager);
         for (Object[] edge : data) {
             if (edge.length == 1) {
                 graph.addVertex(edge[0]);
@@ -82,7 +136,7 @@ public class Main {
      * @return
      */
     private static Graph<Object, Double> undirectedGraph(Object[][] data) {
-        Graph<Object, Double> graph = new ListGraph<>();
+        Graph<Object, Double> graph = new ListGraph<>(weightManager);
         for (Object[] edge : data) {
             if (edge.length == 1) {
                 graph.addVertex(edge[0]);
