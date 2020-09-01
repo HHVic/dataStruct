@@ -1,7 +1,11 @@
 package com.huan.graph;
 
 
+import sun.reflect.generics.visitor.Visitor;
 
+import java.util.List;
+
+@SuppressWarnings("ALL")
 public interface Graph<V, E> {
 
     /**
@@ -59,7 +63,7 @@ public interface Graph<V, E> {
      * @param start
      * @param visitor
      */
-    void bfs(V start,Visitor<V> visitor);
+    void bfs(V start, Visitor<V> visitor);
 
     /**
      * 深度优先遍历
@@ -68,9 +72,27 @@ public interface Graph<V, E> {
      */
     void dfs(V start,Visitor<V> visitor);
 
+    /**
+     * 有向无环图拓扑排序
+     * @return
+     */
+    List<V> topologicalSort();
+
     abstract class Visitor<V>{
         boolean stop;
         public abstract boolean visitor(V v);
+    }
+
+    class EdgeInfo<V,E>{
+        V from;
+        V to;
+        E weight;
+
+        public EdgeInfo(V from, V to, E weight) {
+            this.from = from;
+            this.to = to;
+            this.weight = weight;
+        }
     }
 
 }

@@ -12,12 +12,12 @@ public class ListGraph<V, E> implements Graph<V, E> {
     // 存放所有的顶点的映射
     Map<V, Vertex<V, E>> vertices = new HashMap<>();
     // 存放所有的边
-    Set<Edge<V,E>> edges = new HashSet<>();
+    Set<Edge<V, E>> edges = new HashSet<>();
 
     @Override
     public void print() {
         // 遍历所有顶点打印
-        vertices.forEach((v,vertex) -> {
+        vertices.forEach((v, vertex) -> {
             System.out.println(v);
             System.out.println("--------in----------");
             System.out.println(vertex.inEdges);
@@ -31,16 +31,16 @@ public class ListGraph<V, E> implements Graph<V, E> {
     @Override
     public void bfs(V start, Visitor<V> visitor) {
         Vertex<V, E> vertex = vertices.get(start);
-        if(vertex == null || visitor == null) return ;
+        if (vertex == null || visitor == null) return;
         HashSet<Vertex<V, E>> visited = new HashSet<>();
-        Queue<Vertex<V,E>> queue = new LinkedList<>();
+        Queue<Vertex<V, E>> queue = new LinkedList<>();
         queue.offer(vertex);
         visited.add(vertex);
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             vertex = queue.poll();
-            if(visitor.visitor(vertex.v)) return ;
+            if (visitor.visitor(vertex.v)) return;
             vertex.outEdges.forEach(edge -> {
-                if(!visited.contains(edge.to)){
+                if (!visited.contains(edge.to)) {
                     queue.offer(edge.to);
                     visited.add(edge.to);
                 }
@@ -57,24 +57,60 @@ public class ListGraph<V, E> implements Graph<V, E> {
     @Override
     public void dfs(V start, Visitor<V> visitor) {
         Vertex<V, E> vertex = vertices.get(start);
-        if(visitor == null || vertex == null) return ;
-        dfs1(visitor,vertex,new HashSet<>());
+        if (visitor == null || vertex == null) return;
+        dfs1(visitor, vertex, new HashSet<>());
+    }
+
+    @Override
+    public List<V> topologicalSort() {
+        //出队时放入
+        List<V> result = new ArrayList<>();
+        //存放入度为0的顶点
+        Queue<Vertex<V, E>> queue = new LinkedList<>();
+        //各个顶点入度数量映射
+        Map<Vertex<V, E>, Integer> ins = new HashMap<>();
+        //遍历点集，所有入度为零的点入队，并在map中记录所有入读不为0的顶点
+        vertices.forEach((v, vertex) -> {
+            int inEdgeSize = vertex.inEdges.size();
+            if (inEdgeSize == 0) {
+                queue.offer(vertex);
+            } else {
+                ins.put(vertex, inEdgeSize);
+            }
+        });
+        //遍历队列并将outEdge的to顶点的入度减一，如果入度为零入队
+        while (!queue.isEmpty()) {
+            Vertex<V, E> vertex = queue.poll();
+            result.add(vertex.v);
+            vertex.outEdges.forEach(edge -> {
+                int inEdgeSize = ins.get(edge.to);
+                --inEdgeSize;
+                if (inEdgeSize == 0) {
+                    queue.offer(edge.to);
+                } else {
+                    ins.put(edge.to, inEdgeSize);
+                }
+            });
+        }
+
+        return result;
     }
 
     /**
      * 递归实现
+     *
      * @param visitor
      * @param vertex
      * @param visited
      */
-    public void dfs(Visitor visitor,Vertex<V,E> vertex,HashSet<Vertex<V,E>> visited){
-        if(visitor.stop) return ;
+    public void dfs(Visitor visitor, Vertex<V, E> vertex, HashSet<Vertex<V, E>> visited) {
+        if (visitor.stop) return;
         visitor.stop = visitor.visitor(vertex.v);
         visited.add(vertex);
-        if(visitor.stop) return;
+        if (visitor.stop) return;
         vertex.outEdges.forEach(edge -> {
-            if(!visited.contains(edge.to)){
-                dfs(visitor,edge.to,visited);
+            if (!visited.contains(edge.to)) {
+                dfs(visitor, edge.to, visited);
                 visited.add(edge.to);
             }
         });
@@ -82,26 +118,26 @@ public class ListGraph<V, E> implements Graph<V, E> {
 
     /**
      * 非递归实现
+     *
      * @param visitor
      * @param vertex
      * @param visited
      */
-    public void dfs1(Visitor visitor,Vertex<V,E> vertex,HashSet<Vertex<V,E>> visited){
-        Stack<Vertex<V,E>> stack = new Stack<>();
+    public void dfs1(Visitor visitor, Vertex<V, E> vertex, HashSet<Vertex<V, E>> visited) {
+        Stack<Vertex<V, E>> stack = new Stack<>();
         stack.push(vertex);
         visited.add(vertex);
-        while(!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             vertex = stack.pop();
-            if(visitor.visitor(vertex.v)) return ;
+            if (visitor.visitor(vertex.v)) return;
             vertex.outEdges.forEach(edge -> {
-                if(!visited.contains(edge.to)){
+                if (!visited.contains(edge.to)) {
                     stack.push(edge.to);
                     visited.add(edge.to);
                 }
             });
         }
     }
-
 
 
     @Override
@@ -155,7 +191,7 @@ public class ListGraph<V, E> implements Graph<V, E> {
         // 删除顶点要把所有的边信息也删了
         // 删除顶点不存在直接返回
         Vertex<V, E> vertex = vertices.remove(v);
-        if(vertex == null) return ;
+        if (vertex == null) return;
         // 获得该顶点所有的边信息
         // 入边
         Set<Edge<V, E>> inEdges = vertex.inEdges;
@@ -165,14 +201,14 @@ public class ListGraph<V, E> implements Graph<V, E> {
         Iterator<Edge<V, E>> it1 = inEdges.iterator();
         Iterator<Edge<V, E>> it2 = outEdges.iterator();
         // v2 -> v0 删除v2
-        while (it1.hasNext()){
+        while (it1.hasNext()) {
             Edge<V, E> edge = it1.next();
             edge.from.outEdges.remove(edge);
             edges.remove(edge);
             it1.remove();
         }
         // v0 -> v1 删除v1
-        while (it2.hasNext()){
+        while (it2.hasNext()) {
             Edge<V, E> edge = it2.next();
             edge.to.inEdges.remove(edge);
             edges.remove(edge);
@@ -183,12 +219,12 @@ public class ListGraph<V, E> implements Graph<V, E> {
     @Override
     public void removeEdge(V from, V to) {
         // 删除顶点不存在直接返回
-        if(!vertices.containsKey(from) || !vertices.containsKey(to)) return ;
+        if (!vertices.containsKey(from) || !vertices.containsKey(to)) return;
         Vertex<V, E> fromVertex = vertices.get(from);
         Vertex<V, E> toVertex = vertices.get(to);
         Edge<V, E> edge = new Edge<V, E>(fromVertex, toVertex);
         // 删除边成功，将顶点的出入分别删了
-        if(edges.remove(edge)){
+        if (edges.remove(edge)) {
             fromVertex.outEdges.remove(edge);
             toVertex.inEdges.remove(edge);
         }

@@ -3,15 +3,14 @@ package com.huan.test;
 import com.huan.graph.Graph;
 import com.huan.graph.ListGraph;
 
-import java.util.Date;
 import java.util.List;
-import java.util.Objects;
 
 public class Main {
 
     public static void main(String[] args) {
 //        testBFS();
-        testDFS();
+//        testDFS();
+        testTopo();
     }
 
     private static void testBFS(){
@@ -37,6 +36,11 @@ public class Main {
         });
     }
 
+    private static void testTopo(){
+        Graph<Object, Double> graph = directedGraph(Data.TOPO);
+        List<Object> topoList = graph.topologicalSort();
+        topoList.forEach(System.out::println);
+    }
     static void test(){
         Graph<String,Integer> graph = new ListGraph<>();
         graph.addEdge("v1","v2",3);
