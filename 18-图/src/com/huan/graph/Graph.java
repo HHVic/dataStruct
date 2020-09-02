@@ -4,6 +4,7 @@ package com.huan.graph;
 import sun.reflect.generics.visitor.Visitor;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public abstract class Graph<V, E> {
@@ -18,30 +19,36 @@ public abstract class Graph<V, E> {
 
     /**
      * 顶点数
+     *
      * @return
      */
     public abstract int vertexSize();
 
     /**
      * 边数
+     *
      * @return
      */
     public abstract int EdgeSize();
+
     /**
      * 添加顶点
+     *
      * @param v
      */
     public abstract void addVertex(V v);
 
     /**
      * 添加边
+     *
      * @param from 从哪个点出来
-     * @param to 到哪个点
+     * @param to   到哪个点
      */
     public abstract void addEdge(V from, V to);
 
     /**
      * 带权重的边
+     *
      * @param from
      * @param to
      * @param weight
@@ -50,16 +57,18 @@ public abstract class Graph<V, E> {
 
     /**
      * 删除顶点
+     *
      * @param v
      */
     public abstract void removeVertex(V v);
 
     /**
      * 删除边
+     *
      * @param from
      * @param to
      */
-    public abstract void removeEdge(V from,V to);
+    public abstract void removeEdge(V from, V to);
 
     /**
      * 打印图
@@ -68,6 +77,7 @@ public abstract class Graph<V, E> {
 
     /**
      * 广度优先遍历
+     *
      * @param start
      * @param visitor
      */
@@ -75,6 +85,7 @@ public abstract class Graph<V, E> {
 
     /**
      * 深度优先遍历
+     *
      * @param start
      * @param visitor
      */
@@ -82,37 +93,55 @@ public abstract class Graph<V, E> {
 
     /**
      * 有向无环图拓扑排序
+     *
      * @return
      */
     public abstract List<V> topologicalSort();
 
-    public Set<EdgeInfo<V,E>> MST(){
-        return kruskalMST();
+    public Set<EdgeInfo<V, E>> MST() {
+        return Math.random() > 0.5 ? kruskalMST() : primMST();
     }
 
     /**
      * Prim算法求最小生成树
+     *
      * @param <V>
      */
-    public abstract Set<EdgeInfo<V,E>> primMST();
+    public abstract Set<EdgeInfo<V, E>> primMST();
 
     /**
      * Kruskal算法求最小生成树
+     *
      * @return
      */
-    public abstract Set<EdgeInfo<V,E>> kruskalMST();
+    public abstract Set<EdgeInfo<V, E>> kruskalMST();
 
-    public static abstract class Visitor<V>{
+    /**
+     * dijkstra简单实现算法
+     * @param start
+     * @return
+     */
+    public abstract Map<V, E> shortestPaths(V start);
+
+    /**
+     * 返回路径
+     * @param start
+     */
+    public abstract Map<List<EdgeInfo<V,E>>,E> dijkstra(V start);
+
+    public static abstract class Visitor<V> {
         boolean stop;
+
         public abstract boolean visitor(V v);
     }
 
     /**
      * 存放边的信息
+     *
      * @param <V>
      * @param <E>
      */
-    public static class EdgeInfo<V,E>{
+    public static class EdgeInfo<V, E> {
         private V from;
         private V to;
         private E weight;
@@ -157,9 +186,10 @@ public abstract class Graph<V, E> {
         }
     }
 
-    public interface WeightManager<E>{
-        int compare(E e1,E e2);
-        E add(E e1,E e2);
+    public interface WeightManager<E> {
+        int compare(E e1, E e2);
+
+        E add(E e1, E e2);
     }
 
 }

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-图/src/com/huan/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/18-图/src/com/huan/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-图/src/com/huan/graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/18-图/src/com/huan/graph/ListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-图/src/com/huan/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/18-图/src/com/huan/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_101_对称二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_105_从前序与中序遍历序列构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_106_从中序与后序遍历序列构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_108_将有序数组转换为二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_110_平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_114_二叉树展开为链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_173_二叉搜索树迭代器$BSTIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_173_二叉搜索树迭代器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_230_二叉搜索树中第K小的元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_450_删除二叉搜索树中的节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_530_二叉搜索树的最小绝对差.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_559_N叉树的最大深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_662_二叉树最大宽度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_700_二叉搜索树中的搜索.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_701_二叉搜索树中的插入操作.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_889_根据前序和后序遍历构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_938_二叉搜索树的范围和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_98_验证二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_99_恢复二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/dataType/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/dataType/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/堆/_剑指Offer_40_最小的k个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组/_88_合并两个有序数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_21_合并两个有序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_23_合并K个升序链表$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_23_合并K个升序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/dataType/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/META-INF/16-排序.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/BubbleSort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/BubbleSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/BubbleSort3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/CountingSort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/HeapSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/InsertionSort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/InsertionSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/InsertionSort3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/RadixSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/sort/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/tools/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/tools/Integers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/tools/Times$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16-排序/com/huan/tools/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/tools/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/tools/Times$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/tools/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU_R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU_R_PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU_R_PH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU_R_PS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17-并查集/com/huan/union/UnionFind_QU_S.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/Graph$EdgeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/Graph$Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/ListGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/ListGraph$Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/graph/ListGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/test/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/test/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/test/Main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/18-图/com/huan/test/Main.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="184" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\代码\算法\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8 (2)" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="1gGLZbJyW62EYR7Zq5zkY3eoC7D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/09-红黑树/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/18-图/src/com/huan" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="NUM" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huan.回溯" />
+      <recent name="com.huan.sort" />
+      <recent name="com.huan.二叉树.dataType" />
+      <recent name="com.huan" />
+      <recent name="com.huan.circle" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\代码\算法\18-图\src\com\huan" />
+      <recent name="D:\代码\算法\18-图\src\com\huan\test" />
+      <recent name="D:\代码\算法\17-并查集\src\com\huan" />
+      <recent name="D:\代码\算法\16-排序\src\com\huan" />
+      <recent name="D:\代码\算法\16-排序\src\com\huan\sort" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit._39_组合总和.test">
+    <configuration name="_39_组合总和.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._39_组合总和" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_46_全排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._46_全排列" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_47_全排列II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._47_全排列II" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_47_全排列II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._47_全排列II" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_52_N皇后II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._52_N皇后II" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit._39_组合总和.test" />
+        <item itemvalue="JUnit._47_全排列II.test" />
+        <item itemvalue="JUnit._47_全排列II" />
+        <item itemvalue="JUnit._46_全排列.test" />
+        <item itemvalue="JUnit._52_N皇后II.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="" />
+      <created>1597736038573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597736038573</updated>
+      <workItem from="1597736041858" duration="180218000" />
+      <workItem from="1598523512334" duration="21781000" />
+      <workItem from="1598663570672" duration="19321000" />
+      <workItem from="1598794132234" duration="20341000" />
+      <workItem from="1598872879103" duration="1529000" />
+      <workItem from="1598883181816" duration="54000" />
+      <workItem from="1598884221012" duration="27068000" />
+      <workItem from="1599011478628" duration="24055000" />
+    </task>
+    <task id="LOCAL-00001" summary="数据结构与算法">
+      <created>1598168439312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598168439312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kruskal finished">
+      <created>1598946340756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598946340756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="leetcode 210. 课程表 II finished">
+      <created>1598953427844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598953427844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/dataStructure" />
+    </ignored-roots>
+    <MESSAGE value="数据结构与算法" />
+    <MESSAGE value="Kruskal finished" />
+    <MESSAGE value="leetcode 210. 课程表 II finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 210. 课程表 II finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03-链表/src/com/huan/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03-链表/src/com/huan/LinkedList.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02-动态数组/src/com/huan/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02-动态数组/src/com/huan/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/06-二叉搜索树/src/com/huan/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_662_二叉树最大宽度.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_106_从中序与后序遍历序列构造二叉树.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_105_从前序与中序遍历序列构造二叉树.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_889_根据前序和后序遍历构造二叉树.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/07-二叉搜索树2/src/com/huan/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/07-二叉搜索树2/src/com/huan/tree/BST.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_450_删除二叉搜索树中的节点.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_98_验证二叉搜索树.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_530_二叉搜索树的最小绝对差.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_99_恢复二叉搜索树.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_99_恢复二叉搜索树.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09-红黑树/src/com/huan/tree/RBTree.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/13-堆/src/com/huan/heap/HeapSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/16-排序/src/com/huan/sort/ShellSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/18-图/src/com/huan/test/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/数组/_4_寻找两个正序数组的中位数.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_39_组合总和.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.array" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$Main__3_.ic" NAME="Main (3) Coverage Results" MODIFIED="1598433052753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.huan.*</FILTER>
+    </SUITE>
+  </component>
+</project>

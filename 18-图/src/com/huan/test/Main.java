@@ -8,6 +8,7 @@ import com.huan.tools.Asserts;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class Main {
@@ -27,10 +28,18 @@ public class Main {
 //        testBFS();
 //        testDFS();
 //        testTopo();
-        testMST();
+//        testMST();
 //        testUnionFind();
+        testShortestPaths();
     }
 
+    private static void testShortestPaths(){
+        Graph<Object, Double> graph = directedGraph(Data.SP);
+        Map<Object, Double> shortestPaths = graph.shortestPaths("A");
+        shortestPaths.forEach((key,value) -> {
+            System.out.println(key + "->" + value);
+        });
+    }
     private static void testUnionFind(){
         List<Integer> list = new ArrayList<>();
         for(int i = 0;i < 12;++i){
