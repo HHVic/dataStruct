@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_面试题_0801_三步问题.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_面试题_0801_三步问题.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +70,11 @@
       <recent name="NUM" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huan.字符串" />
       <recent name="com.huan.回溯" />
       <recent name="com.huan.sort" />
       <recent name="com.huan.二叉树.dataType" />
       <recent name="com.huan" />
-      <recent name="com.huan.circle" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\代码\算法\18-图\src\com\huan" />
@@ -96,13 +96,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._面试题_0801_三步问题">
-    <configuration name="_10_正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._10_正则表达式匹配" />
+  <component name="RunManager" selected="Application._32_最长有效括号">
+    <configuration name="_1143_最长公共子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._1143_最长公共子序列" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
+          <option name="PATTERN" value="com.huan.字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_151_翻转字符串里的单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._151_翻转字符串里的单词" />
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,24 +124,11 @@
       </method>
     </configuration>
     <configuration name="_32_最长有效括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._32_最长有效括号" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._32_最长有效括号" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_354_俄罗斯套娃信封问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._354_俄罗斯套娃信封问题" />
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
+          <option name="PATTERN" value="com.huan.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="_5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._5_最长回文子串" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._5_最长回文子串" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
+          <option name="PATTERN" value="com.huan.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_面试题_0801_三步问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._面试题_0801_三步问题" />
+    <configuration name="_72_编辑距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._72_编辑距离" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
+          <option name="PATTERN" value="com.huan.字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._面试题_0801_三步问题" />
-        <item itemvalue="Application._354_俄罗斯套娃信封问题" />
         <item itemvalue="Application._32_最长有效括号" />
+        <item itemvalue="Application._1143_最长公共子序列" />
+        <item itemvalue="Application._72_编辑距离" />
         <item itemvalue="Application._5_最长回文子串" />
-        <item itemvalue="Application._10_正则表达式匹配" />
+        <item itemvalue="Application._151_翻转字符串里的单词" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,7 @@
       <workItem from="1599011478628" duration="45340000" />
       <workItem from="1599203962728" duration="4086000" />
       <workItem from="1599368046872" duration="599000" />
-      <workItem from="1599377521509" duration="631000" />
+      <workItem from="1599377521509" duration="21465000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -383,6 +383,11 @@
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_39_组合总和.java</url>
           <line>22</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
