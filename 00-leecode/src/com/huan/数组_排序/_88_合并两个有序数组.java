@@ -1,4 +1,4 @@
-package com.huan.数组;
+package com.huan.数组_排序;
 
 /**
  * https://leetcode-cn.com/problems/merge-sorted-array/
@@ -31,6 +31,30 @@ public class _88_合并两个有序数组 {
         // nums1 未遍历完 拷贝到nums1 中
         while(i < m){
             nums1[t++] = copy[i++];
+        }
+    }
+
+    /**
+     * 从后往前扫描
+     * @param nums1
+     * @param m
+     * @param nums2
+     * @param n
+     */
+    public void merge2(int[] nums1, int m, int[] nums2, int n) {
+        //指向nums1数组的指针
+        int i1 = m - 1;
+        //指向nums2数组的指针
+        int i2 = n - 1;
+        //合并的指针
+        int cur = nums1.length - 1;
+        while(i2 >= 0){
+            if(i1 >= 0 && nums1[i1] > nums2[i2]){
+                nums1[cur--] = nums1[i1--];
+            }else{
+                //i1 < 0 || nums1[i1] <= nums2[i2]
+                nums1[cur--] = nums2[i2--];
+            }
         }
     }
 }
