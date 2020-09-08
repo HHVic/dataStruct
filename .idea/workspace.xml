@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/数组/_4_寻找两个正序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/数组_排序/_4_寻找两个正序数组的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/数组/_88_合并两个有序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/数组_排序/_88_合并两个有序数组.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,33 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._32_最长有效括号">
-    <configuration name="_1143_最长公共子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._1143_最长公共子序列" />
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_151_翻转字符串里的单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._151_翻转字符串里的单词" />
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit._25_K个一组翻转链表">
     <configuration name="_32_最长有效括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huan.字符串._32_最长有效括号" />
       <module name="00-leecode" />
@@ -137,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._5_最长回文子串" />
+    <configuration name="_4_146_LRU缓存机制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._4_146_LRU缓存机制" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.字符串.*" />
+          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,31 +122,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_72_编辑距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._72_编辑距离" />
+    <configuration name="_138_复制带随机指针的链表" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.字符串.*" />
+          <option name="PATTERN" value="com.huan.链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.huan.链表" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.链表._138_复制带随机指针的链表" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_138_复制带随机指针的链表.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.链表" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.链表._138_复制带随机指针的链表" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_25_K个一组翻转链表" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.链表" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.链表._25_K个一组翻转链表" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._25_K个一组翻转链表" />
+        <item itemvalue="JUnit._138_复制带随机指针的链表" />
+        <item itemvalue="JUnit._138_复制带随机指针的链表.test" />
+        <item itemvalue="Application._4_146_LRU缓存机制" />
         <item itemvalue="Application._32_最长有效括号" />
-        <item itemvalue="Application._1143_最长公共子序列" />
-        <item itemvalue="Application._72_编辑距离" />
-        <item itemvalue="Application._5_最长回文子串" />
-        <item itemvalue="Application._151_翻转字符串里的单词" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_LAMBDA" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -196,7 +201,7 @@
       <workItem from="1599011478628" duration="45340000" />
       <workItem from="1599203962728" duration="4086000" />
       <workItem from="1599368046872" duration="599000" />
-      <workItem from="1599377521509" duration="32668000" />
+      <workItem from="1599377521509" duration="59174000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -389,6 +394,16 @@
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java</url>
           <line>43</line>
           <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题/_4_146_LRU缓存机制.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/链表/_25_K个一组翻转链表.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
