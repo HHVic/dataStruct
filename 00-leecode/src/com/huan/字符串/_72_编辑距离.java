@@ -12,9 +12,11 @@ public class _72_编辑距离 {
         if(word1 == null && word2 == null) return 0;
         if(word1 == null) return word2.length();
         if(word2 == null) return word1.length();
-        int len1 = word1.length();
-        int len2 = word2.length();
-        int[][] dp = new int[word1.length() + 1][word2.length() + 1];
+        char[] chars1 = word1.toCharArray();
+        char[] chars2 = word2.toCharArray();
+        int len1 = chars1.length;
+        int len2 = chars2.length;
+        int[][] dp = new int[chars1.length + 1][chars2.length + 1];
         //初始化
         for(int j = 0;j <= len2;++j){
             dp[0][j] = j;
@@ -26,7 +28,7 @@ public class _72_编辑距离 {
         for(int i = 1;i <= len1;++i) {
             for (int j = 1; j <= len2; ++j) {
                 dp[i][j] = dp[i - 1][j - 1];
-                if (word1.charAt(i - 1) != word2.charAt(j - 1)) {
+                if (chars1[i - 1] != chars2[j - 1]) {
                     dp[i][j] = Math.min(Math.min(dp[i - 1][j], dp[i][j - 1]), dp[i][j]) + 1;
                 }
             }

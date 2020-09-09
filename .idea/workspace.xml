@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_72_编辑距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_72_编辑距离.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,26 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._25_K个一组翻转链表">
-    <configuration name="_32_最长有效括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.字符串._32_最长有效括号" />
+  <component name="RunManager" selected="JUnit._17_电话号码的字母组合.test">
+    <configuration name="_42_接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.栈_队列._42_接雨水" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_146_LRU缓存机制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._4_146_LRU缓存机制" />
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
+          <option name="PATTERN" value="com.huan.栈_队列.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,16 +125,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_138_复制带随机指针的链表.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_17_电话号码的字母组合" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.链表.*" />
+          <option name="PATTERN" value="com.huan.回溯.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.链表" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.链表._138_复制带随机指针的链表" />
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._17_电话号码的字母组合" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_17_电话号码的字母组合.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._17_电话号码的字母组合" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -170,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._17_电话号码的字母组合.test" />
+        <item itemvalue="JUnit._17_电话号码的字母组合" />
+        <item itemvalue="Application._42_接雨水" />
         <item itemvalue="JUnit._25_K个一组翻转链表" />
         <item itemvalue="JUnit._138_复制带随机指针的链表" />
-        <item itemvalue="JUnit._138_复制带随机指针的链表.test" />
-        <item itemvalue="Application._4_146_LRU缓存机制" />
-        <item itemvalue="Application._32_最长有效括号" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +204,7 @@
       <workItem from="1599011478628" duration="45340000" />
       <workItem from="1599203962728" duration="4086000" />
       <workItem from="1599368046872" duration="599000" />
-      <workItem from="1599377521509" duration="64385000" />
+      <workItem from="1599377521509" duration="82302000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -404,6 +407,16 @@
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/链表/_25_K个一组翻转链表.java</url>
           <line>11</line>
           <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/栈_队列/_42_接雨水.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_17_电话号码的字母组合.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
