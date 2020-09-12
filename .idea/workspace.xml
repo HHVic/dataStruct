@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_47_全排列II.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_47_全排列II.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,13 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/09-红黑树/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/18-图/src/com/huan" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -95,9 +102,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._122_买卖股票的最佳时机II">
-    <configuration name="_122_买卖股票的最佳时机II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._122_买卖股票的最佳时机II" />
+  <component name="RunManager" selected="JUnit._60_第k个排列.test">
+    <configuration name="_面试题_0801_三步问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._面试题_0801_三步问题" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
@@ -109,20 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_42_接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.栈_队列._42_接雨水" />
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.栈_队列.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_17_电话号码的字母组合" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_216_组合总和III.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
@@ -131,50 +125,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._17_电话号码的字母组合" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_17_电话号码的字母组合.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.回溯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._17_电话号码的字母组合" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._216_组合总和III" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_K个一组翻转链表" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_40_组合总和II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.链表.*" />
+          <option name="PATTERN" value="com.huan.回溯.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.链表" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.链表._25_K个一组翻转链表" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._40_组合总和II" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_47_全排列II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._47_全排列II" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_60_第k个排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._60_第k个排列" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._122_买卖股票的最佳时机II" />
-        <item itemvalue="JUnit._17_电话号码的字母组合.test" />
-        <item itemvalue="JUnit._17_电话号码的字母组合" />
-        <item itemvalue="Application._42_接雨水" />
-        <item itemvalue="JUnit._25_K个一组翻转链表" />
+        <item itemvalue="JUnit._60_第k个排列.test" />
+        <item itemvalue="JUnit._40_组合总和II.test" />
+        <item itemvalue="JUnit._216_组合总和III.test" />
+        <item itemvalue="JUnit._47_全排列II.test" />
+        <item itemvalue="Application._面试题_0801_三步问题" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +213,8 @@
       <workItem from="1599011478628" duration="45340000" />
       <workItem from="1599203962728" duration="4086000" />
       <workItem from="1599368046872" duration="599000" />
-      <workItem from="1599377521509" duration="86619000" />
+      <workItem from="1599377521509" duration="91054000" />
+      <workItem from="1599746706928" duration="14415000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -419,6 +432,11 @@
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/动态规划/_122_买卖股票的最佳时机II.java</url>
           <line>5</line>
           <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_60_第k个排列.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
