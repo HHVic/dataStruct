@@ -1,17 +1,1 @@
 # Default ignored files
-.idea
-*.iml
-out/
-gen
-/.apt_generated/
-/.classpath
-/.factorypath
-/.project
-/.settings/
-/.springBeans
-/target/
-/.gitignore
-/user-profile-analysis.iml
-/.idea
-/README.md
-.DS_Store

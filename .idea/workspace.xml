@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
+      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_179_最大数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_148_排序链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_47_全排列II.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/回溯/_47_全排列II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/栈_队列/_42_接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/栈_队列/_42_接雨水.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/META-INF/00-leecode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_3_无重复字符的最长子串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_3_无重复字符的最长子串.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="184" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,17 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\代码\算法\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.2" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -48,11 +50,19 @@
     <option name="jreName" value="1.8 (2)" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dmaven.multiModuleProjectDirectory=$MAVEN_HOME -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1gGLZbJyW62EYR7Zq5zkY3eoC7D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -62,7 +72,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/09-红黑树/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/18-图/src/com/huan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,45 +80,34 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="NUM" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huan.精选TOP面试题" />
+      <recent name="com.huan.性能比较" />
       <recent name="com.huan.字符串" />
       <recent name="com.huan.回溯" />
       <recent name="com.huan.sort" />
-      <recent name="com.huan.二叉树.dataType" />
-      <recent name="com.huan" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\代码\算法\00-leecode\src\com\huan\精选TOP面试题" />
+      <recent name="D:\代码\算法" />
       <recent name="D:\代码\算法\18-图\src\com\huan" />
       <recent name="D:\代码\算法\18-图\src\com\huan\test" />
       <recent name="D:\代码\算法\17-并查集\src\com\huan" />
-      <recent name="D:\代码\算法\16-排序\src\com\huan" />
-      <recent name="D:\代码\算法\16-排序\src\com\huan\sort" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit._60_第k个排列.test">
-    <configuration name="_面试题_0801_三步问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huan.动态规划._面试题_0801_三步问题" />
+  <component name="RunManager" selected="JUnit._206_反转链表.test">
+    <configuration name="_5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._5_最长回文子串" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.动态规划.*" />
+          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,83 +115,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_216_组合总和III.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_149_直线上最多的点数" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._216_组合总和III" />
+      <option name="PACKAGE_NAME" value="com.huan.精选TOP面试题" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._149_直线上最多的点数" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_149_直线上最多的点数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.精选TOP面试题" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._149_直线上最多的点数" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_40_组合总和II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_206_反转链表.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._40_组合总和II" />
+      <option name="PACKAGE_NAME" value="com.huan.精选TOP面试题" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._206_反转链表" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_47_全排列II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_4_寻找两个正序数组的中位数" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="PATTERN" value="com.huan.数组_排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._47_全排列II" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_60_第k个排列.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.回溯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huan.回溯" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._60_第k个排列" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.huan.数组_排序" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.数组_排序._4_寻找两个正序数组的中位数" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._60_第k个排列.test" />
-        <item itemvalue="JUnit._40_组合总和II.test" />
-        <item itemvalue="JUnit._216_组合总和III.test" />
-        <item itemvalue="JUnit._47_全排列II.test" />
-        <item itemvalue="Application._面试题_0801_三步问题" />
+        <item itemvalue="JUnit._206_反转链表.test" />
+        <item itemvalue="Application._5_最长回文子串" />
+        <item itemvalue="JUnit._4_寻找两个正序数组的中位数" />
+        <item itemvalue="JUnit._149_直线上最多的点数.test" />
+        <item itemvalue="JUnit._149_直线上最多的点数" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_LAMBDA" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -214,7 +220,32 @@
       <workItem from="1599203962728" duration="4086000" />
       <workItem from="1599368046872" duration="599000" />
       <workItem from="1599377521509" duration="91054000" />
-      <workItem from="1599746706928" duration="14415000" />
+      <workItem from="1599746706928" duration="15655000" />
+      <workItem from="1600020801689" duration="32000" />
+      <workItem from="1600020851779" duration="759000" />
+      <workItem from="1600055624034" duration="981000" />
+      <workItem from="1600059618112" duration="44000" />
+      <workItem from="1600167432896" duration="2403000" />
+      <workItem from="1600254757111" duration="12849000" />
+      <workItem from="1600273665122" duration="4881000" />
+      <workItem from="1600281273331" duration="4174000" />
+      <workItem from="1600350811078" duration="6695000" />
+      <workItem from="1600601917573" duration="607000" />
+      <workItem from="1600739909291" duration="885000" />
+      <workItem from="1601203567344" duration="2165000" />
+      <workItem from="1601727631067" duration="601000" />
+      <workItem from="1602256073066" duration="21000" />
+      <workItem from="1602384155623" duration="2470000" />
+      <workItem from="1602407345770" duration="2492000" />
+      <workItem from="1602598626900" duration="915000" />
+      <workItem from="1603260665617" duration="12053000" />
+      <workItem from="1603878066507" duration="8000" />
+      <workItem from="1611480234843" duration="2273000" />
+      <workItem from="1611491597754" duration="391000" />
+      <workItem from="1611538436775" duration="1138000" />
+      <workItem from="1614131899940" duration="1161000" />
+      <workItem from="1614133548785" duration="4736000" />
+      <workItem from="1614231444129" duration="12572000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -237,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598953427844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="leetcode 148 finished">
+      <created>1600311746943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600311746943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -273,13 +311,12 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -288,7 +325,58 @@
     <MESSAGE value="数据结构与算法" />
     <MESSAGE value="Kruskal finished" />
     <MESSAGE value="leetcode 210. 课程表 II finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 210. 课程表 II finished" />
+    <MESSAGE value="leetcode 148 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 148 finished" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="199" key="#Templates" timestamp="1614232908143">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="199" key="#Templates/0.0.1920.1080@0.0.1920.1080" timestamp="1614232908143" />
+    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1614240650690">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1614240650690" />
+    <state x="715" y="156" key="#xdebugger.evaluate" timestamp="1614234786831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="715" y="156" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1614234786831" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1614243386848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1614243386848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1614243386848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1614243386848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1614243387102">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
+    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1614243387102">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
+    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1614243387102">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
+    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1614243387102">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1614231919191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614231919191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,7 +493,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java</url>
-          <line>43</line>
+          <line>46</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -438,11 +526,36 @@
           <line>20</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/性能比较/Test.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/链表/_148_排序链表.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_76_最小覆盖子串.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题/_7_整数反转.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题/_149_直线上最多的点数.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="Application">
-        <watch expression="this.array" language="JAVA" />
+      <configuration name="JUnit">
+        <watch expression="line" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -450,5 +563,51 @@
     <SUITE FILE_PATH="coverage/$Main__3_.ic" NAME="Main (3) Coverage Results" MODIFIED="1598433052753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.huan.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/$_7_.ic" NAME="_7_整数反转 Coverage Results" MODIFIED="1600358908724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.huan.精选TOP面试题.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
   </component>
 </project>

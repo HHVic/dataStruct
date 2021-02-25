@@ -22,4 +22,20 @@ public class _235_二叉搜索树的最近公共祖先 {
             return lowestCommonAncestor(root.right,p,q);
         }
     }
+
+    //二叉树最近公共祖先
+    public TreeNode nearestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null || p == null || q == null) return root;
+        TreeNode left = nearestCommonAncestor(root.left,p,q);
+        TreeNode right = nearestCommonAncestor(root.right,p,q);
+        if(left != null && right != null){
+            return root;
+        }else{
+            if(left == null){
+                return right;
+            }else{
+                return left;
+            }
+        }
+    }
 }
