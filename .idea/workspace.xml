@@ -1,19 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24781c97-2b25-47bd-bc94-0d0e88ad39a3" name="Default Changelist" comment="Kruskal finished">
-      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_179_最大数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times$Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_148_排序链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/字符串/_3_无重复字符的最长子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leecode/src/com/huan/栈_队列/_42_接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/src/com/huan/栈_队列/_42_接雨水.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/META-INF/00-leecode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_3_无重复字符的最长子串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_3_无重复字符的最长子串.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leecode/00-leecode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/00-leecode/00-leecode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-动态数组/02-动态数组.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-动态数组/02-动态数组.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-链表/03-链表.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-链表/03-链表.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-二叉搜索树/06-二叉搜索树.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06-二叉搜索树/06-二叉搜索树.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07-二叉搜索树2/07-二叉搜索树2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-AVL/08-AVL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08-AVL/08-AVL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-红黑树/09-红黑树.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-红黑树/09-红黑树.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" beforeDir="false" afterPath="$PROJECT_DIR$/10-集合(Set)/10-集合(Set).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" beforeDir="false" afterPath="$PROJECT_DIR$/11-映射(Map)/11-映射(Map).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-哈希表/12-哈希表.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12-哈希表/12-哈希表.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-堆/13-堆.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13-堆/13-堆.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-优先级队列/14-优先级队列.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14-优先级队列/14-优先级队列.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-字典树/15-字典树.iml" beforeDir="false" afterPath="$PROJECT_DIR$/15-字典树/15-字典树.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-排序/16-排序.iml" beforeDir="false" afterPath="$PROJECT_DIR$/16-排序/16-排序.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-并查集/17-并查集.iml" beforeDir="false" afterPath="$PROJECT_DIR$/17-并查集/17-并查集.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-图/18-图.iml" beforeDir="false" afterPath="$PROJECT_DIR$/18-图/18-图.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-图/src/com/huan/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/18-图/src/com/huan/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_101_对称二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_105_从前序与中序遍历序列构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_106_从中序与后序遍历序列构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_108_将有序数组转换为二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_110_平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_114_二叉树展开为链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_173_二叉搜索树迭代器$BSTIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_173_二叉搜索树迭代器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_230_二叉搜索树中第K小的元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_235_二叉搜索树的最近公共祖先.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_450_删除二叉搜索树中的节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_530_二叉搜索树的最小绝对差.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_559_N叉树的最大深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_572_另一个树的子树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_654_最大二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_662_二叉树最大宽度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_700_二叉搜索树中的搜索.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_701_二叉搜索树中的插入操作.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_889_根据前序和后序遍历构造二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_938_二叉搜索树的范围和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_98_验证二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/_99_恢复二叉搜索树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/dataType/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/二叉树/dataType/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_10_正则表达式匹配.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_121_买卖股票的最佳时机.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_122_买卖股票的最佳时机II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_300_最长上升子序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_322_零钱兑换.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_32_最长有效括号.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_354_俄罗斯套娃信封问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_53_最大子序和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_5_最长回文子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/动态规划/_面试题_0801_三步问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_17_电话号码的字母组合.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_216_组合总和III.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_39_组合总和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_40_组合总和II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_46_全排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_47_全排列II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_51_N皇后.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_51_N皇后_优化.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_52_N皇后II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_60_第k个排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/回溯/_637_二叉树的层平均值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/图/_210_课程表II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/堆/_剑指Offer_40_最小的k个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字典树/_208_实现Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_1048_最长字符串链.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_1143_最长公共子序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_151_翻转字符串里的单词.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_179_最大数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_297_二叉树的序列化与反序列化.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_32_最长有效括号.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_3_无重复字符的最长子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_572_另一个树的子树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_5_最长回文子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/_72_编辑距离.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/字符串/面试题01_09_字符串轮转.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/性能比较/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组_排序/_4_寻找两个正序数组的中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组_排序/_75_颜色分类.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组_排序/_88_合并两个有序数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组_排序/_977_有序数组的平方.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/数组_排序/面试题16_16_部分排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/栈_队列/_239_滑动窗口最大值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/栈_队列/_42_接雨水.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/栈_队列/_739_每日温度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/精选TOP面试题/_1_1_两数之和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/精选TOP面试题/_4_146_LRU缓存机制$LinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/精选TOP面试题/_4_146_LRU缓存机制.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_138_复制带随机指针的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_148_排序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_160_相交链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_203_移除链表元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_21_合并两个有序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_234_回文链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_23_合并K个升序链表$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_23_合并K个升序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_25_K个一组翻转链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_2_两数相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/_86_分隔链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/dataType/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/00-leecode/com/huan/链表/dataType/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法.iml" beforeDir="false" afterPath="$PROJECT_DIR$/算法.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +133,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题/_279_完全平方数.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -53,6 +155,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="1gGLZbJyW62EYR7Zq5zkY3eoC7D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -61,27 +166,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/09-红黑树/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/00-leecode/src/com/huan/精选TOP面试题" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="NUM" />
@@ -101,7 +206,18 @@
       <recent name="D:\代码\算法\17-并查集\src\com\huan" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._206_反转链表.test">
+  <component name="RunManager" selected="JUnit._39_组合总和">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._5_最长回文子串" />
       <module name="00-leecode" />
@@ -115,44 +231,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_149_直线上最多的点数" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_98_验证二叉搜索树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huan.二叉树._98_验证二叉搜索树" />
       <module name="00-leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
+          <option name="PATTERN" value="com.huan.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huan.精选TOP面试题" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._149_直线上最多的点数" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_149_直线上最多的点数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="00-leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huan.精选TOP面试题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huan.精选TOP面试题" />
-      <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._149_直线上最多的点数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +256,21 @@
       <option name="MAIN_CLASS_NAME" value="com.huan.精选TOP面试题._206_反转链表" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_39_组合总和" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="00-leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huan.回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huan.回溯" />
+      <option name="MAIN_CLASS_NAME" value="com.huan.回溯._39_组合总和" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._39_组合总和" />
+        <item itemvalue="Application._98_验证二叉搜索树" />
         <item itemvalue="JUnit._206_反转链表.test" />
         <item itemvalue="Application._5_最长回文子串" />
         <item itemvalue="JUnit._4_寻找两个正序数组的中位数" />
-        <item itemvalue="JUnit._149_直线上最多的点数.test" />
-        <item itemvalue="JUnit._149_直线上最多的点数" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +348,7 @@
       <workItem from="1614131899940" duration="1161000" />
       <workItem from="1614133548785" duration="4736000" />
       <workItem from="1614231444129" duration="12572000" />
+      <workItem from="1693834428866" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法">
       <created>1598168439312</created>
@@ -287,7 +390,6 @@
         <entry key="1">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -306,6 +408,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -316,7 +419,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -327,56 +429,6 @@
     <MESSAGE value="leetcode 210. 课程表 II finished" />
     <MESSAGE value="leetcode 148 finished" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode 148 finished" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="199" key="#Templates" timestamp="1614232908143">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="199" key="#Templates/0.0.1920.1080@0.0.1920.1080" timestamp="1614232908143" />
-    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1614240650690">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1614240650690" />
-    <state x="715" y="156" key="#xdebugger.evaluate" timestamp="1614234786831">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="715" y="156" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1614234786831" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1614243386848">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1614243386848">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1614243386848">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1614243386848">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614243386848" />
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom" timestamp="1614243387102">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
-    <state width="1877" height="255" key="GridCell.Tab.1.center" timestamp="1614243387102">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
-    <state width="1877" height="255" key="GridCell.Tab.1.left" timestamp="1614243387102">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
-    <state width="1877" height="255" key="GridCell.Tab.1.right" timestamp="1614243387102">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="255" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614243387102" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1614231919191">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614231919191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,11 +492,6 @@
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_450_删除二叉搜索树中的节点.java</url>
           <line>73</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_98_验证二叉搜索树.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/00-leecode/src/com/huan/二叉树/_530_二叉搜索树的最小绝对差.java</url>
